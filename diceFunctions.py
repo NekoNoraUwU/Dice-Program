@@ -1,4 +1,4 @@
-import random, time, rFunctions as rF, Menu
+import random, time, randomFunctions as rF, Menu
 
 randomisedDice = list()
 
