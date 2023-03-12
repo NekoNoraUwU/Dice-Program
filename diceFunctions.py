@@ -13,18 +13,20 @@ def rollD4():
             randomisedDice.append(randDice)
         Sum = sum(randomisedDice)
         print('The total of all rolls is ' + str(Sum))
-        randomisedDice.clear()
 
         rF.Enter()
 
         Rerole = True
         while Rerole == True:
-            menuList = ['Do you want to keep rolling?', 'Yes', 'No']
+            menuList = ['----------Reroll----------', 'Keep rolling... ', 'Roll again... ', 'Stop rolling... ']
             menuChoice = Menu.runMenu(menuList)
 
             if menuChoice == 1:
                 Rerole = False
             elif menuChoice == 2:
+                Rerole = False
+                randomisedDice.clear()
+            elif menuChoice == 3:
                 Rerole = False
                 bRollD4 = False
 
@@ -39,18 +41,20 @@ def rollD6():
             randomisedDice.append(randDice)
         Sum = sum(randomisedDice)
         print('The total of all rolls is ' + str(Sum))
-        randomisedDice.clear()
 
         rF.Enter()
 
         Rerole = True
         while Rerole == True:
-            menuList = ['Do you want to keep rolling?', 'Yes', 'No']
+            menuList = ['----------Reroll----------', 'Keep rolling... ', 'Roll again... ', 'Stop rolling... ']
             menuChoice = Menu.runMenu(menuList)
 
             if menuChoice == 1:
                 Rerole = False
             elif menuChoice == 2:
+                Rerole = False
+                randomisedDice.clear()
+            elif menuChoice == 3:
                 Rerole = False
                 bRollD6 = False
 
@@ -68,18 +72,20 @@ def rollD8():
             randomisedDice.append(randDice)
         Sum = sum(randomisedDice)
         print('The total of all rolls is ' + str(Sum))
-        randomisedDice.clear()
 
         rF.Enter()
 
         Rerole = True
         while Rerole == True:
-            menuList = ['Do you want to keep rolling?', 'Yes', 'No']
+            menuList = ['----------Reroll----------', 'Keep rolling... ', 'Roll again... ', 'Stop rolling... ']
             menuChoice = Menu.runMenu(menuList)
 
             if menuChoice == 1:
                 Rerole = False
             elif menuChoice == 2:
+                Rerole = False
+                randomisedDice.clear()
+            elif menuChoice == 3:
                 Rerole = False
                 bRollD8 = False
 
@@ -95,18 +101,20 @@ def rollD10():
             randomisedDice.append(randDice)
         Sum = sum(randomisedDice)
         print('The total of all rolls is ' + str(Sum))
-        randomisedDice.clear()
 
         rF.Enter()
 
         Rerole = True
         while Rerole == True:
-            menuList = ['Do you want to keep rolling?', 'Yes', 'No']
+            menuList = ['----------Reroll----------', 'Keep rolling... ', 'Roll again... ', 'Stop rolling... ']
             menuChoice = Menu.runMenu(menuList)
 
             if menuChoice == 1:
                 Rerole = False
             elif menuChoice == 2:
+                Rerole = False
+                randomisedDice.clear()
+            elif menuChoice == 3:
                 Rerole = False
                 bRollD10 = False
 
@@ -122,18 +130,20 @@ def rollD12():
             randomisedDice.append(randDice)
         Sum = sum(randomisedDice)
         print('The total of all rolls is ' + str(Sum))
-        randomisedDice.clear()
 
         rF.Enter()
 
         Rerole = True
         while Rerole == True:
-            menuList = ['Do you want to keep rolling?', 'Yes', 'No']
+            menuList = ['----------Reroll----------', 'Keep rolling... ', 'Roll again... ', 'Stop rolling... ']
             menuChoice = Menu.runMenu(menuList)
 
             if menuChoice == 1:
                 Rerole = False
             elif menuChoice == 2:
+                Rerole = False
+                randomisedDice.clear()
+            elif menuChoice == 3:
                 Rerole = False
                 bRollD12 = False
 
@@ -149,18 +159,20 @@ def rollD20():
             randomisedDice.append(randDice)
         Sum = sum(randomisedDice)
         print('The total of all rolls is ' + str(Sum))
-        randomisedDice.clear()
 
         rF.Enter()
 
         Rerole = True
         while Rerole == True:
-            menuList = ['Do you want to keep rolling?', 'Yes', 'No']
+            menuList = ['----------Reroll----------', 'Keep rolling... ', 'Roll again... ', 'Stop rolling... ']
             menuChoice = Menu.runMenu(menuList)
 
             if menuChoice == 1:
                 Rerole = False
             elif menuChoice == 2:
+                Rerole = False
+                randomisedDice.clear()
+            elif menuChoice == 3:
                 Rerole = False
                 bRollD20 = False
 
